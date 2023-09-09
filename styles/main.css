@@ -123,3 +123,10 @@
     margin-right: 0;
 }
 
+.article_menttion{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    margin: 0;
+    width: 100%;
+}
