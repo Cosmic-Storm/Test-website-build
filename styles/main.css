@@ -1,0 +1,125 @@
+.side_bar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1 0 auto;
+    width: 30%;
+}
+
+.Sidebar_Title{
+    margin-bottom: 4rem;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction:inherit;
+    height: 100vh;
+    flex: 1 0 auto;
+    width: 70%;
+    align-content: right;
+    align-items: right;
+}
+
+.mainContent_header{
+    align-content: right;
+    align-items: right;
+    display: flex;
+}
+
+.nav_tab {
+    width: 100%;
+    align-content: right;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .nav_tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .nav_tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .nav_tab button.active {
+    background-color: #ccc;
+  }
+
+.AuthorList, .BookList{
+    margin: 0 0 6rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.AuthorList_link, .BookList_Link{
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+
+.AuthorList_Item, .BookList_Item{
+    margin-bottom: 4rem;
+}
+
+
+.AuthorList_img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10rem;
+}
+
+.BookList_img{
+    margin-right: 2rem;
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 3px 4px 19px rgba(0,0,0,0,25);
+}
+
+.BookList_Link{
+    flex-direction: row;
+}
+
+.BookList_Name{
+    margin: 0;
+    line-height: 1.4;
+    color: #444;
+}
+
+.BookList_Body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+}
+
+.BookList_Author{
+    color: #999;
+}
+
+.mainContent_Article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mainContent_Article, .Book_Article{
+    width: 50%;
+    margin-right: 4rem ;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.mainContent_Article, .Book_Article:nth-child(2n){
+    margin-right: 0;
+}
+
